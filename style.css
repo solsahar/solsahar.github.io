@@ -19,6 +19,9 @@ body{
   height: 100%;
   display: block;
 }
+#iframe {
+  margin: 0 auto
+}
 
 #container {
   width: 200px;
