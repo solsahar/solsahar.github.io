@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "Paurkour",
+"productName": "Parkour",
 "dataUrl": "Paurkour.data.unityweb",
 "wasmCodeUrl": "Paurkour.wasm.code.unityweb",
 "wasmFrameworkUrl": "Paurkour.wasm.framework.unityweb",
