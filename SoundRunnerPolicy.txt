@@ -1,0 +1,3 @@
+No hacking or exploiting unless given permission by the app developer.
+You are not allowed to decompile the app unless given permission by the app developer.
+You are not allowed to republish the app unless given permission by the app developer.
