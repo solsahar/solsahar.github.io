@@ -47,7 +47,7 @@ function isValidPage()
  * @param assignmentIndexId The index id of the assignment to be checked.
  */
 function lookUpGrade(gradeDOM, assignmentId, assignmentIndexId) {
-    console.log("Looking up grade.")
+    console.log("start to lookup grade!!")
     //see if the grade is displaying
     var ds = gradeDOM.getAttribute("data-showing");
     if (ds == "false") {
@@ -85,7 +85,6 @@ function lookUpGrade(gradeDOM, assignmentId, assignmentIndexId) {
             var xhr = new XMLHttpRequest();
             const domain = window.location.hostname;//the domain of the webpage
             xhr.open("GET", "https://"+domain+"/api/datadirect/AssignmentStudentDetail?format=json&studentId=" + studentId + "&AssignmentIndexId=" + assignmentIndexId)
-            console.log("Student ID: " + studentId.toString())
             xhr.onreadystatechange = (e) => {
                 //handle the response
                 if (xhr.readyState === 4 && xhr.status === 200) {
